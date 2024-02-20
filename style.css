@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+}
+.Instagram {
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.post {
+    background-color: white;
+    width: 500px;
+    height: 700px;
+}
+.post-header {
+    padding: 8px;
+    display: flex;
+}
+.post-header-left {
+    display: flex;
+    font-size: xx-large;
+    align-items: center;
+    padding-left: 0px;
+}
+.post-header-center {
+    padding-left: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.post-header-center h1 {
+    font-size: 14px;
+    margin-bottom: -8px;
+}
+.post-header-center h2 {
+    font-size: 12px;
+}
+.post-header-right {
+    display: flex;
+    font-size: xx-large;
+    margin-left: 63%;
+    align-items: center;
+}
+.post-imag img{
+    width: 100%;
+    height: auto;
+}
+.post-body {
+    padding: 8px;
+    display: flex;
+}
+.post-icons {
+    padding: 8px;
+    display: flex;
+}
+.post-icons-left {
+    gap: 12px;
+    display: flex;
+    font-size: xx-large;
+    align-items: center;
+    padding-left: 0px;
+}
+.post-icons-right {
+    display: flex;
+    font-size: xx-large;
+    margin-left: 55%;
+    align-items: center;
+}
