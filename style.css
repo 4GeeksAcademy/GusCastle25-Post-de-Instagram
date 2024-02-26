@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    margin: 20px;
 }
 .Instagram {
     display: flex;
@@ -11,7 +12,8 @@ body {
 .post {
     background-color: white;
     width: 500px;
-    height: 700px;
+    height: 760px;
+    border: 5px solid #0c50bd
 }
 .post-header {
     padding: 8px;
@@ -64,4 +66,7 @@ body {
     font-size: xx-large;
     margin-left: 55%;
     align-items: center;
+}
+.p {
+    padding-left: 20px;
 }
